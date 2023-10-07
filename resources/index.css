@@ -1,0 +1,7 @@
+@import "./header.css";
+@import "./body.css";
+@import "./footer.css";
+
+body{
+    background-color: antiquewhite;
+}

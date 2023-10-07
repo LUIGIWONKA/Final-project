@@ -1,0 +1,7 @@
+header > #header {
+    display: block;
+    background-color: aqua;
+    height: 80px;
+    border-radius: 100px;
+
+}
