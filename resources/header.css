@@ -1,7 +1,45 @@
-header > #header {
-    display: block;
-    background-color: aqua;
-    height: 80px;
-    border-radius: 100px;
+.navigation-menu{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.925);
+    width: 100%;
+    box-shadow: 1px 1px 52px rgba(0, 255, 170, 0.897);
+    list-style-type: none;
+    place-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
 
+#logo {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#logo:hover {
+    height: 8em;
+    width: 8em;
+    box-shadow: 1px 1px 30px rgb(68, 0, 255);
+}
+
+section > .text {
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+}
+
+li >a:hover {
+    display: grid;
+    height: 50px;
+    width: 50px;
+    background: rgba(255, 127, 127, 0.664) ;
+    place-items: center;
+    transform: rotateZ(11deg)
+    
 }
