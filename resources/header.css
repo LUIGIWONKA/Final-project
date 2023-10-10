@@ -6,48 +6,52 @@
     background-size: cover;
     box-shadow: 0px 0px 45px rgba(0, 255, 170, 0.897);
     width: 100%;
-    height: 130px;
-    z-index: 100;
+    height: 120px;
     position: fixed;
     text-transform: uppercase;
-    color: white;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo {
     background: rgba(40, 14, 88, 0);
     height: 100px;
     width: 100px;
-    margin-left: 5%;
-    border-radius: 23%;
+    margin-left: 2%;
+    border-radius: 50% 50% 50% 50% / 96% 96% 4% 4% ;
 }
 
 .logo:hover {
-    height: 8em;
-    width: 8em;
+    height: 7em;
+    width: 7em;
     box-shadow: 0px 0px 50px rgb(38, 0, 255);
 }
 
-li {
-    list-style: none;
-}
 
-li:hover {
-    height: 15px;
-    width: 15px;
-    background: rgba(255, 127, 127, 0.664) ;
-    transform: rotateZ(15deg)
-    
+.navbar {
+    display: flex;
+    list-style-type: none;
 }
 
 li > a {
-    display: grid;
+    display: block;
     text-decoration: none;
     color: white;
+    padding: 20px 30px;
+    font-weight:l;
+}
+li > a:hover {
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    background: rgba(93, 146, 243, 0.801) ;
+    transform: rotateZ(10deg)    
+}
+
+.account {
+ color: white;
+ font-style: italic;
+ font-weight: lighter;
+ margin-right: 3%;
 }
 
 .account:hover{
-    background-color: rgba(128, 128, 128, 0.925);
-    color: blueviolet;
-
+    color: blueviolet
 }
