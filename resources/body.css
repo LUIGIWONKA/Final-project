@@ -2,7 +2,7 @@
     display: flex;
     margin-top: 6.4%;
     height: 40vh !important;
-    background: url(./images/webb-1.jpg) no-repeat center;
+    background: url(./images/Photo\ \(2\).jpeg) no-repeat center;
     background-size: cover;
 }
 
@@ -20,7 +20,8 @@
 
 .button {
     display: flex;
-    margin-top: 70px;
+    margin-top: 120px;
+    margin-right: 10px;
     --color: #4542eb;
     padding: 0.8em 1.7em;
     background-color: transparent;
@@ -30,12 +31,12 @@
     cursor: pointer;
     transition: .5s;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 18px;
     border: 1px solid;
     font-family: inherit;
     text-transform: uppercase;
     color: var(--color);
-    z-index: 100;
+    z-index: 10;
 }
 
 .button::before, .button::after {
@@ -77,10 +78,9 @@
 .text {
     display: flex;
     align-items: center;
-    color: rgb(252, 228, 252);
-    font-style:oblique;
+    color: rgb(192, 216, 252);
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-rendering: optimizeLegibility ;
-
-}
+    text-align: center;
+    }
