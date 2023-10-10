@@ -1,11 +1,18 @@
 .about {
-    margin-top: 7.7%;
-    height: 50vh !important;
+    margin-top: 6.4%;
+    height: 40vh !important;
     background: url(./images/webb-1.jpg) no-repeat center;
     background-size: cover;
 }
 
 .title {
-    display: flex;
-    align-items: baseline;
+    display: grid;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    width: 170px;
+    height: 250px;
+    place-content: center;
 }
