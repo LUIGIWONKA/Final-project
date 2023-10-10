@@ -13,9 +13,9 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    height: 150px;
-    align-items: center;
-    place-items: center;
+    height: 200px;
+    width: 60%;
+    place-items: end;
 }
 
 .button {
@@ -77,5 +77,10 @@
 .text {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(252, 228, 252);
+    font-style:oblique;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-rendering: optimizeLegibility ;
+
 }
