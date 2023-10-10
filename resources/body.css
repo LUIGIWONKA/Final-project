@@ -1,0 +1,11 @@
+.about {
+    margin-top: 7.7%;
+    height: 50vh !important;
+    background: url(./images/webb-1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    display: flex;
+    align-items: baseline;
+}
