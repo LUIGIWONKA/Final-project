@@ -1,21 +1,5 @@
-body{
-    margin: 0;
-}
-
-
-.banner-img{    
-    height: 60vh !important;
-    background: url(img/.banner-img) no-repeat center;
-    background-size: cover;
-
-}
-
-
-.banner{
-    display: inline-flex;
-    background: black;
-    color: white;
-    height: 100em;
-    padding: 1px 65px;
-    justify-content: space-around;
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -2,6 +2,12 @@
 @import "./body.css";
 @import "./footer.css";
 
-body{
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
     background-color: antiquewhite;
+
 }
