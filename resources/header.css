@@ -18,7 +18,8 @@
     background: transparent;
     height: 100px;
     width: 100px;
-    border-radius: 50% 50% 50% 50% / 96% 96% 4% 4% ;
+    border-radius: 50% 50% 50% 50% / 96% 96% 4% 4%;
+    margin-left: 10px;
 }
 
 .logo:hover {
@@ -31,7 +32,7 @@
 .navbar {
     display: flex;
     list-style-type: none;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
     font-size: large;
     min-width: 380px;
@@ -52,7 +53,10 @@ li > a:hover {
  color: white;
  font-style: italic;
  font-weight: bolder;
- font-size: large;
+ font-size: larger;
+ margin-right: 40px;
+ padding: 0px 35px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .account:hover {
