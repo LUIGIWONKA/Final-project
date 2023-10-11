@@ -6,6 +6,7 @@
     width: 100%;
     background: url(./images/Photo\ \(2\).jpeg) no-repeat center;
     background-size: cover;
+    image-rendering: optimizeSpeed;
 }
 
 .container {

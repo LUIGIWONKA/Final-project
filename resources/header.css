@@ -12,6 +12,7 @@
     height: 22.4%;
     position: fixed;
     text-transform: uppercase;
+    image-rendering: optimizeSpeed;
 }
 
 .logo {
