@@ -1,8 +1,9 @@
 .menu {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -26%;
-    justify-content: space-around;
+    min-width: 380px;
+    margin-top: -14.2%;
+    justify-content: space-between;
     align-items: center;
     background: url(./images/welcome_to_our-transformed.png) no-repeat center;
     background-size: cover;
@@ -11,19 +12,18 @@
     height: 22.4%;
     position: fixed;
     text-transform: uppercase;
-    min-width: 250px;
 }
 
 .logo {
     background: transparent;
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 50% 50% 50% 50% / 96% 96% 4% 4% ;
 }
 
 .logo:hover {
-    height: 8em;
-    width: 8em;
+    height: 7em;
+    width: 7em;
     box-shadow: 0px 0px 50px rgb(38, 0, 255);
 }
 
@@ -32,14 +32,16 @@
     display: flex;
     list-style-type: none;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: large;
+    min-width: 380px;
 }
 
 li > a {
     display: flex;
     text-decoration: none;
     color: white;
-    padding: 0px 25px;
-    font-weight:lighter;
+    padding: 0px 35px;
 }
 li > a:hover {
     background: rgba(74, 33, 151, 0.856);
@@ -49,7 +51,8 @@ li > a:hover {
 .account {
  color: white;
  font-style: italic;
- font-weight: lighter;
+ font-weight: bolder;
+ font-size: large;
 }
 
 .account:hover {

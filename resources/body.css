@@ -1,44 +1,60 @@
 .about {
     display: flex;
     flex-wrap: wrap;
-    min-width: 250px;
-    margin-top: 26.1%;
-    height: 60vh !important;
+    margin-top: 14.1%;
+    height: 80vh !important;
+    width: 100%;
     background: url(./images/Photo\ \(2\).jpeg) no-repeat center;
     background-size: cover;
 }
 
-.title {
+.container {
     display: grid;
+    text-align: center;
+    place-items: center;
+    min-width: 380px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
     font-size: xx-large;
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    height: 200px;
-    width: 60%;
-    place-items: end;
+    margin-top: 200px;
+}
+
+   
+.text {
+    display: flex;
+    flex-wrap: nowrap;
+    color: rgb(192, 248, 252);
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    margin-bottom: 200px;
 }
 
 .button {
     display: flex;
-    margin-top: 120px;
-    margin-right: 10px;
+    bottom: 180px;
     --color: #4542eb;
-    padding: 0.8em 1.7em;
+    padding: 0.7em 1.5em;
     background-color: transparent;
-    border-radius: .3em;
+    border-radius: .5em;
     position: relative;
     overflow: hidden;
     cursor: pointer;
     transition: .5s;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     border: 1px solid;
     font-family: inherit;
     text-transform: uppercase;
     color: var(--color);
-    z-index: 10;
+    z-index: 1;
 }
 
 .button::before, .button::after {
@@ -76,13 +92,3 @@
    .button:active {
     filter: brightness(.9);
    }
-   
-.text {
-    display: flex;
-    align-items: center;
-    color: rgb(192, 216, 252);
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-rendering: optimizeLegibility ;
-    text-align: center;
-    }
