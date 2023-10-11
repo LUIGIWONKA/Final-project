@@ -1,7 +1,9 @@
 .about {
     display: flex;
-    margin-top: 6.4%;
-    height: 40vh !important;
+    flex-wrap: wrap;
+    min-width: 250px;
+    margin-top: 26.1%;
+    height: 60vh !important;
     background: url(./images/Photo\ \(2\).jpeg) no-repeat center;
     background-size: cover;
 }
