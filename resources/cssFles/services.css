@@ -13,24 +13,28 @@
     place-items: center;
     color: rgb(192, 248, 252);
     min-width: 380px;
+    font-size: large;
+    font-weight: lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.text2 {
+.text01 {
     background-color: rgba(210, 211, 200, 0.445);
     border-radius: 10px;
     display: flex;
-    flex: 7;
-    margin: 10px;
-    padding: 15px;
+    flex: 6;
+    margin: 20px;
+    padding: 30px 25px;
+
 }
 
-.best {
+.text02 {
     background-color: rgba(210, 211, 200, 0.445);
     border-radius: 10%;
     display: flex;
     flex: 1;
     margin: 10px;
-    padding: 20px;
+    padding: 30px 25px;
 }
 
 .plans {

@@ -5,18 +5,18 @@
     margin-top: -14.2%;
     justify-content: space-between;
     align-items: center;
-    background: url(./images/welcome_to_our-transformed.png) no-repeat center;
+    background: url(../images/welcome_to_our-transformed.png) no-repeat center;
     background-size: cover;
     box-shadow: 0px 0px 20px rgb(0, 110, 255);
     width: 100%;
     height: 22.4%;
     position: fixed;
     text-transform: uppercase;
-    image-rendering: optimizeSpeed;
+    image-rendering:optimizeQuality;
 }
 
 .logo {
-    background: transparent;
+
     height: 100px;
     width: 100px;
     border-radius: 50% 50% 50% 50% / 96% 96% 4% 4%;
@@ -24,9 +24,12 @@
 }
 
 .logo:hover {
-    height: 7em;
-    width: 7em;
-    box-shadow: 0px 0px 50px rgb(38, 0, 255);
+    border: 0%;
+    padding: 0%;
+    margin-bottom: 3em;
+    height: 6em;
+    box-shadow: 3px 25px 45px rgb(96, 46, 214);
+
 }
 
 
@@ -35,19 +38,22 @@
     list-style-type: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
-    font-size: large;
-    min-width: 380px;
+    font-size: larger;
+    width: 380px;
+    justify-content: space-between;
+
 }
 
 li > a {
     display: flex;
     text-decoration: none;
+    font-style: italic;
     color: white;
-    padding: 0px 35px;
 }
+
 li > a:hover {
     background: rgba(74, 33, 151, 0.856);
-    transform: rotateZ(5deg)    
+    transform: rotateZ(5deg)
 }
 
 .account {
