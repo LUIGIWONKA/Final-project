@@ -1,10 +1,9 @@
-.container {
+.containerplans {
     display: inline-flex;
-    justify-content: space-around;
-    margin: -0.1%;
-    margin-top: 10%;
+    justify-content: center;
     min-width: 380px;
-    flex-wrap: nowrap;
+    margin: -0.1% ;
+    margin-top: 5%;
 
 }
 
@@ -14,7 +13,8 @@
     padding: 10px;
     background-color: #fff;
     color: #697e91;
-    max-width: 300px;  
+    max-width: 300px;
+
 }
   
   .plan strong {
