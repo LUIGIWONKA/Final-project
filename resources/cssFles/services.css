@@ -23,9 +23,8 @@
     border-radius: 10px;
     display: flex;
     flex: 6;
-    margin: 20px;
+    margin: 5px;
     padding: 30px 25px;
-
 }
 
 .text02 {
@@ -33,8 +32,9 @@
     border-radius: 10%;
     display: flex;
     flex: 1;
-    margin: 10px;
-    padding: 30px 25px;
+    margin: 5px;
+    padding: 25px 10px;
+    padding-bottom: 60px;
 }
 
 .plans {
@@ -64,6 +64,9 @@
     text-transform: uppercase;
     color: var(--color);
     z-index: 1;
+    padding: 30px 30px;
+    justify-content: center;
+    top: 15px;
 }
 
 .button-plans::before, .button-plans::after {

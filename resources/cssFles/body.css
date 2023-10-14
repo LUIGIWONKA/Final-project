@@ -2,11 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 14.1%;
-    height: 80vh !important;
+    height: 100vh !important;
     width: 100%;
-    background: url(../images/Photo\ \(2\).jpeg) no-repeat center;
+    background: url(../images/Photo2.jpeg) no-repeat center;
     background-size: cover;
     image-rendering: optimizeSpeed;
+    min-width: 380px;
 }
 
 .container {
@@ -24,8 +25,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    margin-top: 200px;
-    background-color: black;
+    margin-top: 145px;
 }
 
    
@@ -37,12 +37,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 20px;
     margin-bottom: 200px;
-    text-align: center;
+    text-align: justify;
 }
 
 .button {
     display: flex;
-    bottom: 180px;
+    bottom: 195px;
     --color: #4542eb;
     padding: 0.7em 1.5em;
     background-color: transparent;
