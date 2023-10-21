@@ -1,0 +1,75 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 380px;
+    margin-top: -14.2%;
+    justify-content: space-between;
+    align-items: center;
+    background: url(../images/Banner.png) no-repeat center;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgb(0, 110, 255);
+    width: 100%;
+    height: 22.4%;
+    position: fixed;
+    text-transform: uppercase;
+    image-rendering:optimizeQuality;
+}
+
+.logo {
+
+    height: 100px;
+    width: 100px;
+    background: url(../images/Logo.png) no-repeat center;
+    background-size: cover;
+    border-radius: 50% 50% 50% 50% / 96% 96% 4% 4%;
+    margin-left: 10px;
+    user-select: none;
+}
+
+.logo:hover {
+    border: 0%;
+    padding: 0%;
+    margin-bottom: 3em;
+    height: 6em;
+    box-shadow: 3px 25px 45px rgb(96, 46, 214);
+
+}
+
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: larger;
+    width: 380px;
+    justify-content: space-between;
+
+}
+
+li > a {
+    display: flex;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}
+
+li > a:hover {
+    background: rgba(74, 33, 151, 0.856);
+    transform: rotateZ(5deg)
+}
+
+.account {
+ color: white;
+ font-style: italic;
+ font-weight: bolder;
+ font-size: larger;
+ margin-right: 40px;
+ padding: 0px 35px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ user-select: none;
+}
+
+.account:hover {
+    cursor: pointer;
+}

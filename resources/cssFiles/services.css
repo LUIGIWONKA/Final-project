@@ -1,0 +1,106 @@
+#title2 {
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
+
+.containerS {
+    display: flex;
+    text-align: center;
+    place-items: center;
+    color: rgb(192, 248, 252);
+    min-width: 380px;
+    font-size: large;
+    font-weight: lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.text01 {
+    background-color: rgba(210, 211, 200, 0.445);
+    border-radius: 10px;
+    display: flex;
+    flex: 6;
+    margin: 5px;
+    padding: 30px 25px;
+}
+
+.text02 {
+    background-color: rgba(210, 211, 200, 0.445);
+    border-radius: 10%;
+    display: flex;
+    flex: 1;
+    margin: 5px;
+    padding: 25px 10px;
+    padding-bottom: 60px;
+}
+
+.plans {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #4542eb;
+    font-size: larger;
+    font-weight: 900;
+    background-origin: border-box;
+    
+}
+
+.button-plans {
+    display: flex;
+    --color: #4542eb;
+    padding: 0.7em 1.5em;
+    background-color: transparent;
+    border-radius: .5em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    padding: 30px 30px;
+    justify-content: center;
+    top: 15px;
+}
+
+.button-plans::before, .button-plans::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button-plans::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button-plans::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button-plans:hover::before, .button-plans:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button-plans:hover {
+    color: rgba(37, 111, 151, 0.986);
+   }
+   
+   .button-plans:active {
+    filter: brightness(.9);
+   }
