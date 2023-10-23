@@ -1,100 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/cssFiles/index.css">
     <title>inicio</title>
 
-<header>
-    <section class="menu">     
-        <div class="logo">
-            
-        </div>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <img class="checked" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPElEQVR4nO3WsQkAMAwDQe2/dALuXIVUBnMHGkDdJwBAOUuWNUcAAOBpulplfGQ8AAC/pvNbxkfGA0CaC2n/KuSsP4fKAAAAAElFTkSuQmCC">         
+                </label>
+            <div class="logotype"></div>
+            <ul class="menu">
+                <li>
+                    <a id="navbar_item" href="./index.html">sign up</a>
+                </li>
+                <li>
+                    <a id="navbar_item" href="./index.html">review</a>
+                </li>
+                <li>
+                    <a id="navbar_item" href="./index.html">services</a>
+                </li>
+                <li>
+                    <label class="account">Account</label>
+                </li>
+            </ul>
 
-        <nav class="navbar">              
-            <li>
-                <a href="./index.html">services</a>
-            </li>
-            
-            <li>
-                <a href="./index.html">review</a>
-            </li>
 
-            <li>
-                <a href="./index.html">sign up</a>   
-            </li>
-        </nav>
-
-        <div class="account">
-            <div>
-                <h3>Account</h3>
+            <div class="test open">
+                <li><a href="#" id="drop">Sign up</a></li>
+                <li><a href="#" id="drop">Review</a></li>
+                <li><a href="#" id="drop">Services</a></li>
+                <li><a href="#" id="log_out">Log-out</a></li>
             </div>
-        </div>
-    </section>
-</header>
+
+        </nav>
+    </header>
 
 </head>
+
 <body>
 
-    
 
-    <section class="about">
-        <div class="container">
-            <h1 class="title">About us</h1>
-        
-            <div>
-            <p class="text">
-                ¿Alguna vez has mirado al cielo nocturno y te has maravillado ante la inmensidad del cosmos?.</br> 
-                La astronomía es una ciencia fascinante que nos invita a explorar los secretos del universo, desde las estrellas y galaxias distantes hasta los planetas cercanos.
-                Sin embargo, para adentrarse en este apasionante mundo, uno necesita acceso a imágenes de calidad que muestren la belleza del espacio profundo y los objetos celestes.</br>
-                Aquí es donde entra en juego "Nebulã", una innovadora empresa dedicada a proporcionar imágenes astronómicas de alta calidad de manera accesible para todos los entusiastas de la astronomía.</br> 
-                Nuestra misión es acercar las maravillas del universo a tu pantalla, permitiéndote explorar el cosmos desde la comodidad de tu hogar.
-            </p>
-            </div>
-        
-            <button class="button">
-                Button
-            </button>
+    <section class="all_body">
+        <section class="about">
+            <div class="container">
+                <h1 class="title">About us</h1>
+
+                <div>
+                    <p class="text">
+                        ¿Alguna vez has mirado al cielo nocturno y te has maravillado ante la inmensidad del
+                        cosmos?.</br>
+                        La astronomía es una ciencia fascinante que nos invita a explorar los secretos del universo,
+                        desde
+                        las estrellas y galaxias distantes hasta los planetas cercanos.
+                        Sin embargo, para adentrarse en este apasionante mundo, uno necesita acceso a imágenes de
+                        calidad
+                        que muestren la belleza del espacio profundo y los objetos celestes.</br>
+                        Aquí es donde entra en juego "Nebulã", una innovadora empresa dedicada a proporcionar imágenes
+                        astronómicas de alta calidad de manera accesible para todos los entusiastas de la
+                        astronomía.</br>
+                        Nuestra misión es acercar las maravillas del universo a tu pantalla, permitiéndote explorar el
+                        cosmos desde la comodidad de tu hogar.</br>
+                        <button class="button">
+                            Button
+                        </button>
+                    </p>
+                </div>
 
                 <dialog id="float_window">
                     <div class="photo_container">
-                        <img id="photo" src="./resources/images/Photo1.jpg" alt="Photo-space">
+                        <div class="photo">
+
+                        </div>
+                        <button class="close_button">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="m12.002 2.005c5.518 0 9.998 4.48 9.998 9.997 0 5.518-4.48 9.998-9.998 9.998-5.517 0-9.997-4.48-9.997-9.998 0-5.517 4.48-9.997 9.997-9.997zm0 1.5c-4.69 0-8.497 3.807-8.497 8.497s3.807 8.498 8.497 8.498 8.498-3.808 8.498-8.498-3.808-8.497-8.498-8.497zm0 7.425 2.717-2.718c.146-.146.339-.219.531-.219.404 0 .75.325.75.75 0 .193-.073.384-.219.531l-2.717 2.717 2.727 2.728c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.384-.073-.53-.219l-2.729-2.728-2.728 2.728c-.146.146-.338.219-.53.219-.401 0-.751-.323-.751-.75 0-.192.073-.384.22-.531l2.728-2.728-2.722-2.722c-.146-.147-.219-.338-.219-.531 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"
+                                    fill-rule="nonzero" />
+                            </svg>
+                        </button>
                     </div>
-                    <button class="close_button">
-                        Cerrar
+                </dialog>
+
+            </div>
+
+
+
+        </section>
+
+        <section class="services">
+            <h1 id="title2">Services</h1>
+            <div class="containerS">
+                <p class="text01">
+                    En "Nebulã", creemos que la belleza del universo no debe estar reservada solo para astrónomos
+                    profesionales. </br>
+                    Por eso, trabajamos arduamente para capturar imágenes espectaculares de los objetos celestes más
+                    fascinantes y convertirlas en recursos accesibles para todos.
+                    Así que, si eres un apasionado de la astronomía, un educador que busca recursos visuales impactantes
+                    o
+                    simplemente alguien que busca contemplar las maravillas del espacio, "Nebulã" es tu fuente confiable
+                    de
+                    imágenes astronómicas excepcionales. </br>
+                </p>
+
+                <span class="text02">
+                    ¡Come and explore the universe with us!
+                    <button class="button-plans">
+                        <a class="plans" href="./resources/htmlFiles/plans.html">plans</a>
                     </button>
-                 </dialog>
-
-
-        </div>
+                </span>
 
 
 
+
+            </div>
+        </section>
     </section>
-
-    <section class="services">
-        <h1 id="title2">Services</h1>
-        <div class="containerS">
-            <p class="text01">
-                En "Nebulã", creemos que la belleza del universo no debe estar reservada solo para astrónomos profesionales. </br> 
-                Por eso, trabajamos arduamente para capturar imágenes espectaculares de los objetos celestes más fascinantes y convertirlas en recursos accesibles para todos.
-                Así que, si eres un apasionado de la astronomía, un educador que busca recursos visuales impactantes o simplemente alguien que busca contemplar las maravillas del espacio, "Nebulã" es tu fuente confiable de imágenes astronómicas excepcionales. </br> 
-            </p>
-            
-            <span class="text02">
-                ¡Come and explore the universe with us!
-                <button class="button-plans">
-                    <a class="plans" href="./resources/htmlFiles/plans.html">plans</a>
-                </button>
-            </span>
-
-
-           
-
-        </div>
-    </section>
-
 
 </body>
 <script src="./resources/jsFiles/index.js"></script>

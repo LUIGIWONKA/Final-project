@@ -12,3 +12,11 @@ const close_photo_emergent = function(a){
 
 photo_emergent(".button");
 close_photo_emergent(".close_button")
+
+const check = document.querySelector("#check")
+const checked = document.querySelector(".checked")
+const dropmenu = document.querySelector(".test")
+
+check.onclick = function () {
+    dropmenu.classList.toggle('open')
+}
