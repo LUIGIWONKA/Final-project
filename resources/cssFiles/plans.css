@@ -1,5 +1,5 @@
 .all-container {
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
   min-width: 380px;
   width: 100%;
@@ -7,33 +7,42 @@
 }
 
 .container-pack {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    max-width: 250px;
+    max-width: 350px;
     margin: 0.5%;
-    margin-top: 5%;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(255, 255, 255, 0.623);
-    box-shadow: 0px 0px 15px #ffffff75;
+    margin-top: 20%;
+    background-color: gray;
+    border: 1px solid #ffffff5b;
+    box-shadow: 0px 0px 15px gray;
     border-radius: 2em;
-    padding: 2.5%;
+    padding: 50px 20px;
+}
+
+.container-pack.free {
+  padding-top: 50px;
+  
+}
+
+.container-pack.premium {
+  padding-top: 50px;
 }
 
 .headers {
   text-align: center;
   font-size: larger;
   padding: 10px 25px;
-  color: rgb(39, 39, 39);
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
 
 .price {
   display: flex;
   place-content: center;
-  position: relative;
-  color: rgb(39, 39, 39);
+  color: rgb(255, 255, 255);
   font-size: 2.9em;
-  border-bottom: 2px solid;
+  border-bottom: 3px solid;
+  border-radius: 5px;
 }
 
 .price span:first-child {
@@ -50,27 +59,32 @@
 }
 
 .description {
-  display: flex;
-  position: relative;
+  display: inline-block;
   justify-content: center;
   line-height: 1.2;
-  border-bottom: 2px solid;
+  border-bottom: 3px solid;
   font-size:large;
   text-align: center;
+  border-radius: 5px;
+  color: white;
 
 }
 
-#description2 {
-  padding-bottom: 20px;
-}
+
 
 .lists {
-  display: flex;
+  display: inline-block;
   flex-flow: column;
-  position: relative;
   list-style-type: none;
-  gap: 5px;
-  color: rgb(39, 39, 39);
+  color: rgb(255, 255, 255);
+}
+
+.lists.free {
+  padding-top: 55px;
+}
+
+.lists.premium {
+  padding-top: 25px;
 }
 
 .check {
@@ -78,14 +92,6 @@
   margin-right: 5px;
   width: 1.5em;
   height: 1.5em;
-}
-
-.check:hover {
-  width: 26px;
-  height: 26px;
-  border-radius: 100%;
-  box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.623);
-
 }
 .list {
   display: flex;
@@ -99,7 +105,7 @@
 .button-plan {
   background-color: #58d3a4;
   border-radius: 10px;
-  color: #fff;
+  color: #4e4545;
   font-weight: 500;
   font-size: 1.125rem;
   text-align: center;
@@ -112,15 +118,6 @@
   cursor: pointer;
   user-select: none;
 }
-
-#buttonf {
-  margin-top: 87px;
-}
-
-#buttons {
-  margin-top: 25px;
-}
-
 
 .button-plan:hover, .button-plan:focus {
   background-color: #3392b7;
