@@ -67,8 +67,8 @@
     position: relative;
     left: 25%;
     border-radius: 50px;
-    width: 880px;
-    height: 880px;
+    width: 680px;
+    height: 680px;
 
 }
 
@@ -85,8 +85,8 @@
     justify-content: center;
     background: url(../images/Photo1.jpg) no-repeat center;
     background-size: cover;
-    width: 750px;
-    height: 750px;
+    width: 550px;
+    height: 550px;
     border-radius: 3%;
     margin-left: 5%;
     margin-top: 2%;
@@ -102,4 +102,29 @@
     height: 50px;
     background-color: transparent;
     margin-top: 2%;
+}
+
+@media (max-width: 858px) {
+    #float_window {
+        width: 450px;
+
+    }
+    .photo {
+        
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 650px) {
+    #float_window {
+        width: 300px;
+    }
+    .photo {
+        height: 250px;
+        width: 250px;
+        margin-top: 150px;
+        margin-right: 20px;
+
+    }
 }
