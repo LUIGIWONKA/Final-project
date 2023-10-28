@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500&display=swap');
+
+footer {
+    background: url(../images/Footer.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+.footer_container {
+    display: flex;
+    font-family: 'Source Serif 4', serif;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin: 0px 10px;
+    padding: 10px 0px;
+    user-select: none;
+    font-weight: bold;
+}
+
+.title_footer {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+#copy {
+    font-size: 18px;
+    position: relative;
+    right: 7px;
+    bottom: 12px;
+}
+
+.why {
+    font-size: 15px;
+    text-align: justify;
+    padding: 0px 30px;
+}
+
+.social_media {
+    width: 100%;
+    line-height: 0.9;
+}
+
+.links_footer {
+    position: relative;
+    bottom: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+.links_footer:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+.collaborations {
+    font-size: 16px;
+    padding: 00px 40px;
+
+}
+
+@media (max-width: 952px) {
+    .title_footer {
+        transition: all 1s;
+        font-size: 17px;
+    }
+    .why {
+        transition: all 1s;
+        font-size: 12px;
+    }
+    .links_footer {
+        transform: all 1s;
+        font-size: 13px;
+        position: relative;
+        right: 4px;
+        line-height: 1.8;
+    }
+    .collaborations {
+        transform: all 1s;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+}
+@media (max-width: 858px) {
+    .why {
+        transition: all 1s;
+        text-align: center;
+    }
+}

@@ -65,12 +65,15 @@
 
 #float_window {
     position: relative;
-    left: 25%;
+    left: 350px;
+    top: 20px;
     border-radius: 50px;
     width: 680px;
     height: 680px;
 
 }
+
+
 
 .photo_container {
     display: flex;
@@ -104,9 +107,10 @@
     margin-top: 2%;
 }
 
-@media (max-width: 858px) {
+@media (max-width: 1100px) {
     #float_window {
         width: 450px;
+        left: 130px;
 
     }
     .photo {
@@ -118,6 +122,8 @@
 
 @media (max-width: 650px) {
     #float_window {
+        left: 50px;
+        right: 80px;
         width: 300px;
     }
     .photo {

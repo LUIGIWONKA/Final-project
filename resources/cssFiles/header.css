@@ -9,7 +9,7 @@ nav {
 }
 
 .logotype {
-    display: inline-flex;
+    display: grid;
     height: 100px;
     width: 100px;
     background: url(../images/Logo.png) no-repeat center ;
@@ -19,10 +19,12 @@ nav {
     position: static;
     margin-left: 10px;
     margin-top: 10px;
+    
 }
 
 .logotype:hover {
-    box-shadow: 3px 25px 45px rgb(96, 46, 214);
+    box-shadow: 0px 0px 20px 0px rgb(96, 46, 214);
+    margin-left: 15px;
 }
 
 
@@ -35,15 +37,16 @@ nav .menu{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     list-style-type: none;
     user-select: none;
-    padding: 0px 20px;
     cursor: pointer;
     text-transform: uppercase;
+    position: relative;
+    bottom: 40px;
 }
 
 .menu li {
-    display: inline-block;
-    line-height: 120px;
-    margin: 0px 5px;
+    display: inline-flex;
+    margin: 0px 15px;
+    margin-top: 0px;
 }
 
 #navbar_item {
