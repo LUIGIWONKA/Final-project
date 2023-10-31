@@ -1,7 +1,6 @@
-.all_body{
+.all_body {
     background: url(../images/Photo2.jpeg) no-repeat center;
     background-size: cover;
-    min-width: 380px;
     height: 100% !important;
     width: 100%;
 }
@@ -16,7 +15,6 @@
     display: grid;
     text-align: center;
     place-items: center;
-    min-width: 380px;
 }
 
 .title {
@@ -35,23 +33,28 @@
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
-    padding-bottom: 200px;
     text-align: justify;
+}
+
+.button-modal {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
 }
 
 .button {
     background-color: #6c5ce7;
     padding: 15px 25px;
-    font-size: 12px;
-    font-weight: 700;
     color: #fff;
     border-radius: 10px;
     transition: all ease 0.1s;
     box-shadow: 0px 10px 0px 0px #a29bfe;
-    margin-top: 10px;
-    margin-left: 45%;
     user-select: none;
     cursor: pointer;
+    font-family: 'Nanum Myeongjo', serif;
+    text-transform: uppercase;
+    display: grid;
+    justify-content: center;
 }
 
 .button:hover {
@@ -59,9 +62,9 @@
 }
 
 .button:active {
-    transform: translateY(6px);
+    transform: translateZ(6deg);
     box-shadow: 0px 0px 0px 0px #a29bfe;
-  }
+}
 
 #float_window {
     position: relative;
@@ -111,10 +114,10 @@
     #float_window {
         width: 450px;
         left: 130px;
-
     }
+
     .photo {
-        
+
         width: 400px;
         height: 400px;
     }
@@ -126,6 +129,7 @@
         right: 80px;
         width: 300px;
     }
+
     .photo {
         height: 250px;
         width: 250px;

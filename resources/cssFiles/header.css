@@ -6,6 +6,7 @@ nav {
     width: 100%;
     height: 15%;
     position: fixed;
+    transition: all 1s ease-out;
 }
 
 .logotype {
@@ -17,14 +18,19 @@ nav {
     border-radius: 50% 50% 50% 50% / 96% 96% 4% 4%;
     user-select: none;
     position: static;
-    margin-left: 10px;
-    margin-top: 10px;
-    
+    margin-left: 20px;
+    margin-top: 10px;    
 }
 
 .logotype:hover {
-    box-shadow: 0px 0px 20px 0px rgb(96, 46, 214);
-    margin-left: 15px;
+    box-shadow: 0px 20px 20px 0px rgb(96, 46, 214);
+    margin-left: 25px;
+}
+
+.logotype:active {
+    box-shadow: 1px 1px 20px 1px rgb(255, 255, 255);
+    transform: rotateY(6deg);
+    transition: all 1s;
 }
 
 
@@ -72,6 +78,7 @@ nav .menu{
     text-decoration: none;
     color: rgb(0, 0, 0);
     list-style-type: none;
+    text-transform: capitalize;
 }
 
 
@@ -89,6 +96,7 @@ nav .menu{
     cursor: pointer;
 }
 
+/*
 .log_out {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -101,6 +109,10 @@ nav .menu{
     background-color: #4ea0d6;
     transition: all ease 0.1s;
 }
+
+HTML= <li><a href="#" class="log_out">Log-out</a></li>
+
+*/
 
 #check {
     display: none;
@@ -136,8 +148,12 @@ nav .menu{
     #navbar_item {
         font-size: 16px;
     }
+    nav{
+        height: 18%;
+    }
 }
 @media (max-width: 858px) {
+    
     .checked{
         display: block;
     }
@@ -164,5 +180,8 @@ nav .menu{
     .log_out:hover, .log_out:active {
         transform: rotateY(6px);
         box-shadow: 0px 0px 0px 0px #5353d3;
+    }
+    nav{
+        height: 20%;
     }
 }
