@@ -25,10 +25,8 @@ footer {
 
 #copy {
     font-size: 18px;
-    position: relative;
-    right: 7px;
-    bottom: 12px;
     transition: all 1s;
+
 }
 
 .why {
@@ -125,5 +123,11 @@ footer {
         text-align: center;
         padding-bottom: 10px;
         transition: all 1s;
+    }
+}
+
+@media (max-width: 650px) {
+    footer {
+        width: 110%;
     }
 }

@@ -120,24 +120,25 @@ HTML= <li><a href="#" class="log_out">Log-out</a></li>
 
 .test {
     display: none;
-    position: static;
     flex-wrap: wrap;
-    height: 120%;
+    height: 100%;
     width: 100%;
-    background-color: rgba(253, 253, 253, 0.63);
+    background-color: rgb(253, 253, 253);
     max-width: 250px;
     text-align: center;
-    border-radius: 2%;
-    left: 150px;
-    top: 75px;
-    backdrop-filter: blur(15px);
     transition: all 1s;
     overflow: hidden ;
     user-select: none;
+    opacity: 0.9;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .test.open {
     height: 0px;
+}
+
+#drop {
+    line-height: 30px;
 }
 
 @media (max-width: 952px) {
@@ -157,22 +158,18 @@ HTML= <li><a href="#" class="log_out">Log-out</a></li>
     .checked{
         display: block;
     }
-    #navbar_item, .account {
+    .menu {
         display: none;
     }
     .test {
         display: block;
-        float: right;        
         margin: 50px 0px;
-        line-height: 30px;
         font-size: 20px;
         list-style-type: none;
-        cursor: pointer;
         color: rgb(29, 29, 31);
         left: 1em;
-        top: 0em;
+        top: 1em;
         max-width: none;
-        border-radius: 2em;
     }
     #drop:hover,#drop:active{
         background: transparent;

@@ -135,6 +135,8 @@
         width: 250px;
         margin-top: 150px;
         margin-right: 20px;
-
+    }
+    .all_body {
+        width: 110%;
     }
 }
