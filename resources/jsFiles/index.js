@@ -25,3 +25,7 @@ const close_photo_emergent = function(a){
 photo_emergent(".button");
 close_photo_emergent(".close_button")
 
+function plan() {
+    alert("Se realizara su proceso...")
+    
+}

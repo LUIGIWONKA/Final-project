@@ -3,9 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../cssFiles/index.css">
+    <link rel="shortcut icon" href="./resources/images/Logo-icon.png" type="image/x-icon">
+    <title>Register</title>
+
+    <header>
+        <nav class="access_header">
+            <input type="checkbox" id="check">
+            <label for="check">
+                <img class="checked" src="../images/menu.png" alt="menu-bar">
+            </label>
+            <div><a class="logotype access" href="../../index.html"></a></div>
+            <ul class="menu">
+                <li>
+                    <a id="navbar_item" href="./plans.html#review">review</a>
+                </li>
+                <li>
+                    <a id="navbar_item" href="../../index.html#title2">services</a>
+                </li>
+            </ul>
+
+
+            <div class="test open">
+                <li><a href="./plans.html#review" id="drop">review</a></li>
+                <li><a href="../../index.html#title2" id="drop">services</a></li>
+            </div>
+
+        </nav>
+    </header>
 </head>
 <body>
+
+    <form action="#" id="form" class="container-register">
+        <div class="register">
+            <h1>La aventura en nebulã espera por ti</h1>
+            <div>
+                <p class="data">Nombre</p>
+                <input class="datas box"  type="text" placeholder="Nombre" required>
+                <img class="logos-register" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmMyLjc1NyAwIDUgMi4yNDMgNSA1LjAwMSAwIDIuNzU2LTIuMjQzIDUtNSA1cy01LTIuMjQ0LTUtNWMwLTIuNzU4IDIuMjQzLTUuMDAxIDUtNS4wMDF6bTAtMmMtMy44NjYgMC03IDMuMTM0LTcgNy4wMDEgMCAzLjg2NSAzLjEzNCA3IDcgN3M3LTMuMTM1IDctN2MwLTMuODY3LTMuMTM0LTcuMDAxLTctNy4wMDF6bTYuMzY5IDEzLjM1M2MtLjQ5Ny40OTgtMS4wNTcuOTMxLTEuNjU4IDEuMzAyIDIuODcyIDEuODc0IDQuMzc4IDUuMDgzIDQuOTcyIDcuMzQ2aC0xOS4zODdjLjU3Mi0yLjI5IDIuMDU4LTUuNTAzIDQuOTczLTcuMzU4LS42MDMtLjM3NC0xLjE2Mi0uODExLTEuNjU4LTEuMzEyLTQuMjU4IDMuMDcyLTUuNjExIDguNTA2LTUuNjExIDEwLjY2OWgyNGMwLTIuMTQyLTEuNDQtNy41NTctNS42MzEtMTAuNjQ3eiIvPjwvc3ZnPg==">
+            </div>
+            <div>
+                <p class="data">Apodo</p>
+                <input class="datas box"  type="text" placeholder="Apodo">
+                <img class="logos-register" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmMyLjc1NyAwIDUgMi4yNDMgNSA1LjAwMSAwIDIuNzU2LTIuMjQzIDUtNSA1cy01LTIuMjQ0LTUtNWMwLTIuNzU4IDIuMjQzLTUuMDAxIDUtNS4wMDF6bTAtMmMtMy44NjYgMC03IDMuMTM0LTcgNy4wMDEgMCAzLjg2NSAzLjEzNCA3IDcgN3M3LTMuMTM1IDctN2MwLTMuODY3LTMuMTM0LTcuMDAxLTctNy4wMDF6bTYuMzY5IDEzLjM1M2MtLjQ5Ny40OTgtMS4wNTcuOTMxLTEuNjU4IDEuMzAyIDIuODcyIDEuODc0IDQuMzc4IDUuMDgzIDQuOTcyIDcuMzQ2aC0xOS4zODdjLjU3Mi0yLjI5IDIuMDU4LTUuNTAzIDQuOTczLTcuMzU4LS42MDMtLjM3NC0xLjE2Mi0uODExLTEuNjU4LTEuMzEyLTQuMjU4IDMuMDcyLTUuNjExIDguNTA2LTUuNjExIDEwLjY2OWgyNGMwLTIuMTQyLTEuNDQtNy41NTctNS42MzEtMTAuNjQ3eiIvPjwvc3ZnPg==">
+            </div>
+            <div>
+                <p class="data">Email</p>
+                <input class="datas box" type="email" placeholder="Correo" required>
+                <img class="logos-register" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgLjAyYy02LjYyNyAwLTEyIDUuMzczLTEyIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyLTUuMzczLTEyLTEyLTEyem02Ljk5IDYuOThsLTYuOTkgNS42NjYtNi45OTEtNS42NjZoMTMuOTgxem0uMDEgMTBoLTE0di04LjUwNWw3IDUuNjczIDctNS42NzJ2OC41MDR6Ii8+PC9zdmc+">
+            </div>
+            <div>
+                <p class="data">Contraseña</p>
+                <input class="datas box" type="password" placeholder="Contraseña" required minlength="5" required>
+                <img class="logos-register" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMTdjMCAuNTUyLS40NDcgMS0xIDFzLTEtLjQ0OC0xLTEgLjQ0Ny0xIDEtMSAxIC40NDggMSAxem0zIDBjMCAuNTUyLS40NDcgMS0xIDFzLTEtLjQ0OC0xLTEgLjQ0Ny0xIDEtMSAxIC40NDggMSAxem0zIDBjMCAuNTUyLS40NDcgMS0xIDFzLTEtLjQ0OC0xLTEgLjQ0Ny0xIDEtMSAxIC40NDggMSAxem0yLTd2LTRjMC0zLjMxMy0yLjY4Ny02LTYtNnMtNiAyLjY4Ny02IDZ2NGgtM3YxNGgxOHYtMTRoLTN6bS0xMC00YzAtMi4yMDYgMS43OTUtNCA0LTRzNCAxLjc5NCA0IDR2NGgtOHYtNHptMTEgMTZoLTE0di0xMGgxNHYxMHoiLz48L3N2Zz4=">
+            </div>
+            <div>
+                <p class="data">Confirmar contraseña</p>
+                <input class="datas box" type="password" placeholder="Confirmar contraseña" required>
+                <img class="logos-register" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMTdjMCAuNTUyLS40NDcgMS0xIDFzLTEtLjQ0OC0xLTEgLjQ0Ny0xIDEtMSAxIC40NDggMSAxem0zIDBjMCAuNTUyLS40NDcgMS0xIDFzLTEtLjQ0OC0xLTEgLjQ0Ny0xIDEtMSAxIC40NDggMSAxem0zIDBjMCAuNTUyLS40NDcgMS0xIDFzLTEtLjQ0OC0xLTEgLjQ0Ny0xIDEtMSAxIC40NDggMSAxem0yLTd2LTRjMC0zLjMxMy0yLjY4Ny02LTYtNnMtNiAyLjY4Ny02IDZ2NGgtM3YxNGgxOHYtMTRoLTN6bS0xMC00YzAtMi4yMDYgMS43OTUtNCA0LTRzNCAxLjc5NCA0IDR2NGgtOHYtNHptMTEgMTZoLTE0di0xMGgxNHYxMHoiLz48L3N2Zz4=">
+            </div>
+           
+            <input class="button-register" type="submit" value="Sign-up">
+            <p>¿Ya posees cuenta? <a href="./login.html">Ingresar</a></p>
+        </div>
+    </form>
     
+
+    <footer>
+        <div class="footer_container">
+            <div class="why">
+                <span class="title_footer">Why use Nebulã <span id="copy">&copy;</span></span>
+                <p>Es tu fuente confiable de imágenes astronómicas excepcionales que combina calidad, accesibilidad y
+                    una pasión por la astronomía. Si eres un entusiasta de la astronomía, un educador en busca de
+                    recursos visuales impactantes o simplemente alguien que busca contemplar las maravillas del espacio.
+                </p>
+            </div>
+            <div class="social_media">
+                <span class="title_footer social">Social Media</span>
+                <div class="media">
+                    <a class="links_footer instagram" href="./resources/htmlFiles/plans.html">.......</a>
+                </div>
+                <div class="media">
+                    <a class="links_footer facebook" href="./resources/htmlFiles/plans.html">.......</a>
+                </div>
+                <div class="media">
+                    <a class="links_footer twitter" href="./resources/htmlFiles/plans.html">.......</a>
+                </div>
+                <div class="media">
+                    <a class="links_footer github" href="./resources/htmlFiles/plans.html">.......</a>
+
+                </div>
+            </div>
+            <div class="collaborations">
+                <span class="title_footer">Collaborations</span>
+                <p>-CelestialTech</br>-CosmicLearning</br>-eCommerceGalaxy</br>-AstronomySoft</br>-StellarPrints</p>
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="../jsFiles/index.js"></script>
 </html>

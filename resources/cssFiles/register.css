@@ -1,0 +1,101 @@
+.container-register {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 41%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.register {
+    background-color: #E5E7E9 ;
+    display: grid;
+    justify-content: center;
+    border-radius: 5%;
+    flex-grow: 1;
+    flex-basis: 200;
+    padding: 100px;
+
+}
+
+.register > h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    font-size: x-large;
+    width: 100%;
+    user-select: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.logos-register {
+    float: left;
+    padding: 7px 0px;
+    border-bottom: 2px solid;
+    transition: all 1s;
+}
+
+.button-register {
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #A3E4D7 ;
+    transition: all .5s;
+}
+
+.register > p, .register > p > a {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+.register > p > a:hover {
+    color: #2C3E50 ;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+@media (max-width: 915px) {
+    .register > p {
+        font-size: smaller;
+        transition: all 1s;
+    }
+    .container-register{
+        width: 50%;
+
+    }
+}
+
+@media (max-width: 680px) {
+    .register > p {
+        font-size: small;
+        transition: all 1s;
+    }
+    .container-register{
+        width: 70%;
+
+    }
+    .datas {
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 490px) {
+    .container-register{
+        width: 90%;
+
+    }
+    .datas {
+        padding: 5px 5px;
+    }
+    .logos-register {
+        padding: 2px 0px;
+    }
+}
