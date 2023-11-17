@@ -24,7 +24,7 @@
             </ul>
 
 
-            <div class="test open">
+            <div class="test open navbar_login_register">
                 <li><a href="./plans.html#review" id="drop">review</a></li>
                 <li><a href="../../index.html#title2" id="drop">services</a></li>
             </div>
@@ -40,16 +40,17 @@
     
             <div>
                 <p class="data">Email</p>
-                <input class="datas box" type="email" placeholder="Correo" required>
+                <input class="datas box email" type="email" placeholder="Correo" required>
                 <img class="logos-login" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmMyLjc1NyAwIDUgMi4yNDMgNSA1LjAwMSAwIDIuNzU2LTIuMjQzIDUtNSA1cy01LTIuMjQ0LTUtNWMwLTIuNzU4IDIuMjQzLTUuMDAxIDUtNS4wMDF6bTAtMmMtMy44NjYgMC03IDMuMTM0LTcgNy4wMDEgMCAzLjg2NSAzLjEzNCA3IDcgN3M3LTMuMTM1IDctN2MwLTMuODY3LTMuMTM0LTcuMDAxLTctNy4wMDF6bTYuMzY5IDEzLjM1M2MtLjQ5Ny40OTgtMS4wNTcuOTMxLTEuNjU4IDEuMzAyIDIuODcyIDEuODc0IDQuMzc4IDUuMDgzIDQuOTcyIDcuMzQ2aC0xOS4zODdjLjU3Mi0yLjI5IDIuMDU4LTUuNTAzIDQuOTczLTcuMzU4LS42MDMtLjM3NC0xLjE2Mi0uODExLTEuNjU4LTEuMzEyLTQuMjU4IDMuMDcyLTUuNjExIDguNTA2LTUuNjExIDEwLjY2OWgyNGMwLTIuMTQyLTEuNDQtNy41NTctNS42MzEtMTAuNjQ3eiIvPjwvc3ZnPg==">
             </div>
             <div>
                 <p class="data">Contraseña</p>
-                <input class="datas box" type="password" placeholder="Contraseña" required>
+                <input class="datas box contraseña" type="password" placeholder="Contraseña" required>
                 <img class="logos-login" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMTdjMCAuNTUyLS40NDcgMS0xIDFzLTEtLjQ0OC0xLTEgLjQ0Ny0xIDEtMSAxIC40NDggMSAxem0zIDBjMCAuNTUyLS40NDcgMS0xIDFzLTEtLjQ0OC0xLTEgLjQ0Ny0xIDEtMSAxIC40NDggMSAxem0zIDBjMCAuNTUyLS40NDcgMS0xIDFzLTEtLjQ0OC0xLTEgLjQ0Ny0xIDEtMSAxIC40NDggMSAxem0yLTd2LTRjMC0zLjMxMy0yLjY4Ny02LTYtNnMtNiAyLjY4Ny02IDZ2NGgtM3YxNGgxOHYtMTRoLTN6bS0xMC00YzAtMi4yMDYgMS43OTUtNCA0LTRzNCAxLjc5NCA0IDR2NGgtOHYtNHptMTEgMTZoLTE0di0xMGgxNHYxMHoiLz48L3N2Zz4=">
             </div>
+            <span id="message_error"></span>
            
-            <input class="button-login" type="submit" value="Login">
+            <input class="button-login" type="button" value="Enviar" onclick="Login()"></input>
             <p>¿No tienes cuenta? <a href="./register.html">Registrate</a></p>
         </div>
     </form>
@@ -87,5 +88,5 @@
         </div>
     </footer>
 </body>
-<script src="../jsFiles/index.js"></script>
+<script src="../jsFiles/login.js"></script>
 </html>

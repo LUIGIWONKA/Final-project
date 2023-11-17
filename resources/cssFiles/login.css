@@ -1,6 +1,9 @@
 .access_header, .logotype.access {
-    position: static;
     margin-top: 0;
+}
+
+.navbar_login_register {
+    height: 30%;
 }
 
 .container-login {
@@ -8,8 +11,6 @@
     flex-wrap: wrap;
     width: 41%;
     margin: auto;
-
-
 }
 
 .login {
@@ -18,7 +19,7 @@
     display: grid;
     border-radius: 5%;
     margin-bottom: 100px;
-    margin-top: 100px;
+    margin-top: 250px;
     flex-grow: 1;
     flex-basis: 200;
 }
@@ -62,10 +63,16 @@
     transition: all 1s;
 }
 
+#message_error {
+    font-size: large;
+    font-family: 'Playfair Display', serif;
+
+}
+
 .button-login {
     padding: 10px;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 10px;
     border-radius: 10px;
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #A3E4D7 ;
@@ -108,5 +115,8 @@
     .login > p {
         font-size: smaller;
         transition: all 1s;
+    }
+    #message_error {
+        font-size: 17px;
     }
 }
