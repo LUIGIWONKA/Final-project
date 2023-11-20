@@ -11,16 +11,18 @@ navbarmenu("#check", ".test")
 
 function Registrarse(){
     let nombre = document.querySelector(".nombre").value;
+    let nickname = document.querySelector(".nickname").value;
     let email = document.querySelector(".email").value;
     let contraseña = document.querySelector(".contraseña").value;
     let confirmar = document.querySelector(".confirmar").value;
 
     if (nombre && email && contraseña && confirmar){
         if(contraseña == confirmar){
-            console.log(nombre, email, contraseña, confirmar)
+            document.querySelector("#message_error").innerText = ""
             let array = []
             datas = JSON.stringify({
                     nameuser: nombre,
+                    nickname: nickname,
                     email: email,
                     password: contraseña,
                     passwordverify: confirmar
@@ -30,10 +32,10 @@ function Registrarse(){
             localStorage.setItem("usuarios", array)
         }
         else {
-            alert ("La contraseña debe ser la misma.")
+            document.querySelector("#message_error").innerText = "La contraseña debe ser la misma."
         }
 }
     else {
-        alert ("Recuerde que debe llenar todo el formulario...")
+        document.querySelector("#message_error").innerText = "Recuerde que debe llenar todo el formulario..."
         }
 }

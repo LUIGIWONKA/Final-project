@@ -29,13 +29,12 @@ function Login() {
                 ValidateLoginUser("1")
                 document.querySelector("#message_error").innerText = ""
                 const button_submit = document.querySelector(".button-login");
-                button_submit.addEventListener("click", function () {
+                button_submit.addEventListener("click" , function () {
                     let dato = localStorage.getItem("userlogged");
-                    if (dato === "1") { // Comprueba que dato sea una cadena "1"
-                        window.location.href = 'file:///C:/Users/Estiven/Documents/Final%20project/index.html'; // Cambia esta URL por la dirección a la que quieras redirigir
+                    if (dato === "1") {
+                        window.location.href = '../../index.html'; 
                     }
                 });
-
             }
             else {
                 document.querySelector("#message_error").innerText = "Contraseña incorrecta"

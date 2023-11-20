@@ -17,29 +17,36 @@
             <div><a class="logotype" href="./index.html"></a></div>
             <ul class="menu">
                 <li>
-                    <a id="navbar_item" class="login_header" href="./resources/htmlFiles/login.html">sign in</a>
+                    <a id="navbar_item" class="login_header" href="./resources/htmlFiles/login.html">Iniciar sesión</a>
                 </li>
                 <li>
-                    <a id="navbar_item" class="signup_header" href="./resources/htmlFiles/register.html">sign up</a>
+                    <a id="navbar_item" class="signup_header" href="./resources/htmlFiles/register.html">Registrarse</a>
                 </li>
                 <li>
-                    <a id="navbar_item" href="./resources/htmlFiles/plans.html#review">review</a>
+                    <a id="navbar_item" href="./resources/htmlFiles/plans.html#review">Reseñas</a>
                 </li>
                 <li>
-                    <a id="navbar_item" href="#title2">services</a>
+                    <a id="navbar_item" href="#title2">Servicios</a>
                 </li>
                 <li>
-                    <label class="account">Account</label>
+                    <span class="account" id="account"></span>
+                    <img id="user_img" src="./resources/images/user.png" alt="user">
+                </li>
+                <li><input type="button" onclick="Log_out()" value="Cerrar Sesión" class="log_out"></input></a>
                 </li>
             </ul>
 
 
             <div class="test open">
-                <li><a href="./resources/htmlFiles/login.html" id="drop" class="after_header">sign in</a></li>
-                <li><a href="./resources/htmlFiles/register.html" id="drop" class="after_header">sign up</a></li>
-                <li><a href="./resources/htmlFiles/plans.html#review" id="drop">review</a></li>
-                <li><a href="#title2" id="drop">services</a></li>
-                <li><a href="#" id="drop">Account</a></li>
+                <li><a href="./resources/htmlFiles/login.html" id="drop" class="login_mobile">Iniciar sesión</a></li>
+                <li><a href="./resources/htmlFiles/register.html" id="drop" class="signup_mobile">Registrarse</a></li>
+                <li><a href="./resources/htmlFiles/plans.html#review" id="drop">Reseñas</a></li>
+                <li><a href="#title2" id="drop">Servicios</a></li>
+                <li>
+                    <span id="drop" class="account_mobile"></span>
+                    <img id="user_img_mobile" src="./resources/images/user.png" alt="user">
+                </li>
+                <li><input type="button" onclick="Log_out()" value="Cerrar Sesión" class="log_out log_out_mobile"></input></li>
             </div>
 
         </nav>
@@ -51,9 +58,14 @@
 
 
     <section class="all_body">
+        <div class="greeting_container">
+            <div class="greeting">
+              <h1>Bienvenido</h1><span id="nameuser"></span>
+            </div>
+        </div>
         <section class="about">
             <div class="container">
-                <h1 class="title">About us</h1>
+                <h1 class="title">Sobre nosotros</h1>
 
                 <div>
                     <p class="text">
@@ -72,7 +84,7 @@
                         cosmos desde la comodidad de tu hogar.</br>
                     <div class="button-modal">
                         <button class="button">
-                            Button
+                            Presione
                         </button>
                     </div>
                     </p>
@@ -102,7 +114,7 @@
         </section>
 
         <section class="services">
-            <h1 id="title2">Services</h1>
+            <h1 id="title2">Servicios</h1>
             <div class="containerS">
                 <p class="text01">
                     En "Nebulã", creemos que la belleza del universo no debe estar reservada solo para astrónomos
@@ -119,7 +131,7 @@
                 <p class="text02">
                     ¡Come and explore the universe with us!
                     <button class="button-class">
-                        <a class="plans" href="./resources/htmlFiles/plans.html">plans</a>
+                        <a class="plans" href="./resources/htmlFiles/plans.html">Planes</a>
                     </button>
                 </p>
 
@@ -133,14 +145,14 @@
     <footer>
         <div class="footer_container">
             <div class="why">
-                <span class="title_footer">Why use Nebulã <span id="copy">&copy;</span></span>
+                <span class="title_footer">¿Por qué usar Nebulã? <span id="copy">&copy;</span></span>
                 <p>Es tu fuente confiable de imágenes astronómicas excepcionales que combina calidad, accesibilidad y
                     una pasión por la astronomía. Si eres un entusiasta de la astronomía, un educador en busca de
                     recursos visuales impactantes o simplemente alguien que busca contemplar las maravillas del espacio.
                 </p>
             </div>
             <div class="social_media">
-                <span class="title_footer social">Social Media</span>
+                <span class="title_footer social">Redes Sociales</span>
                 <div class="media">
                     <a class="links_footer instagram" href="./resources/htmlFiles/plans.html">.......</a>
                 </div>
@@ -156,7 +168,7 @@
                 </div>
             </div>
             <div class="collaborations">
-                <span class="title_footer">Collaborations</span>
+                <span class="title_footer">Colaboraciones</span>
                 <p>-CelestialTech</br>-CosmicLearning</br>-eCommerceGalaxy</br>-AstronomySoft</br>-StellarPrints</p>
             </div>
         </div>

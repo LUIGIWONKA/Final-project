@@ -69,8 +69,27 @@ nav .menu{
     transform: rotateZ(5deg)
 }
 
-.account {
-    cursor: pointer;
+#user_img {
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+.account:hover {
+    color: #5353d3;
+    text-decoration: underline;
+}
+
+.account_mobile:hover {
+    color: #5353d3;
+    text-decoration: underline;
+}
+
+#user_img_mobile {
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin: auto;
 }
 
 #drop {
@@ -95,7 +114,6 @@ nav .menu{
     cursor: pointer;
 }
 
-/*
 .log_out {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -107,11 +125,21 @@ nav .menu{
     box-shadow: 0px 15px 0px 0px #5353d3;
     background-color: #4ea0d6;
     transition: all ease 0.1s;
+    display: none;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
 }
 
-HTML= <li><a href="#" class="log_out">Log-out</a></li>
+.log_out_mobile {
+    margin: auto;
+    margin-top: 10px;
+}
 
-*/
+.log_out:hover {
+    box-shadow: 0px 0px 0px 0px #2c2cee;
+    transition: all easy 1s;
+    color: white;
+}
 
 #check {
     display: none;
@@ -149,7 +177,7 @@ HTML= <li><a href="#" class="log_out">Log-out</a></li>
         font-size: 16px;
     }
     nav{
-        height: 18%;
+        height: 20%;
     }
 }
 @media (max-width: 858px) {
@@ -178,6 +206,6 @@ HTML= <li><a href="#" class="log_out">Log-out</a></li>
         box-shadow: 0px 0px 0px 0px #5353d3;
     }
     nav{
-        height: 20%;
+        height: 30%;
     }
 }

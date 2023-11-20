@@ -4,45 +4,53 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Plans</title>
+	<title>Planes</title>
 	<link rel="stylesheet" href="../cssFiles/index.css">
     <link rel="shortcut icon" href="../images/Logo-icon.png" type="image/x-icon">
 
 	<header>
-		<nav>
-			<input type="checkbox" id="check">
-			<label for="check">
-				<img class="checked" src="../images/menu.png" alt="menu-bar">
-			</label>
-			<div><a class="logotype" href="../../index.html"></a></div>
-			<ul class="menu">
-				<li>
-					<a id="navbar_item" href="../htmlFiles/login.html">sign in</a>
-				</li>
-				<li>
-					<a id="navbar_item" href="../htmlFiles/register.html">sign up</a>
-				</li>
-				<li>
-					<a id="navbar_item" href="./plans.html#review">review</a>
-				</li>
-				<li>
-					<a id="navbar_item" href="../../index.html#title2">services</a>
-				</li>
-				<li>
-					<label class="account">Account</label>
-				</li>
-			</ul>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <img class="checked" src="../images/menu.png" alt="menu-bar">
+            </label>
+            <div><a class="logotype" href="../../index.html"></a></div>
+            <ul class="menu">
+                <li>
+                    <a id="navbar_item" class="login_header" href="./login.html">Iniciar sesión</a>
+                </li>
+                <li>
+                    <a id="navbar_item" class="signup_header" href="./register.html">Registrarse</a>
+                </li>
+                <li>
+                    <a id="navbar_item" href="./plans.html#review">Reseñas</a>
+                </li>
+                <li>
+                    <a id="navbar_item" href="../../index.html#title2">Servicios</a>
+                </li>
+                <li>
+                    <span class="account" id="account"></span>
+                    <img id="user_img" src="../images/user.png" alt="user">
+                </li>
+                <li><input type="button" onclick="Log_out()" value="Cerrar Sesión" class="log_out"></input></a>
+                </li>
+            </ul>
 
 
-			<div class="test open">
-				<li><a href="../htmlFiles/login.html" id="drop">sign in</a></li>
-				<li><a href="../htmlFiles/register.html" id="drop">Sign up</a></li>
-				<li><a href="./plans.html#review" id="drop">Review</a></li>
-				<li><a href="../../index.html#title2" id="drop">Services</a></li>
-				<li><a href="#" id="drop">Account</a></li>
-			</div>
-		</nav>
-	</header>
+            <div class="test open">
+                <li><a href="./login.html" id="drop" class="login_mobile">Iniciar sesión</a></li>
+                <li><a href="./register.html" id="drop" class="signup_mobile">Registrarse</a></li>
+                <li><a href="./plans.html#review" id="drop">Reseñas</a></li>
+                <li><a href="../../index.html#title2" id="drop">Servicios</a></li>
+                <li>
+                    <span id="drop" class="account_mobile"></span>
+                    <img id="user_img_mobile" src="../images/user.png" alt="user">
+                </li>
+                <li><input type="button" onclick="Log_out()" value="Cerrar Sesión" class="log_out log_out_mobile"></input></li>
+            </div>
+
+        </nav>
+    </header>
 
 </head>
 
@@ -51,7 +59,7 @@
 		<section class="container-pack free">
 			<div class="headerplan">
 				<p class="headers">
-					Free
+					Gratis
 				</p>
 				<div class="price">
 					<span>$</span>0
@@ -103,7 +111,7 @@
 		<section class="container-pack">
 			<div class="headerplan">
 				<p class="headers">
-					Basic
+					Basico
 				</p>
 				<div class="price">
 					<span>$</span>25.000
@@ -225,7 +233,7 @@
 		<section class="container-pack">
 			<div class="headerplan">
 				<p class="headers">
-					Professional
+					Profesional
 				</p>
 				<div class="price">
 					<span>$</span>55.000
@@ -285,7 +293,7 @@
 	</section>
 
 	<section class="review" id="review">
-		<h1 id="review-title">Reviews</h1>
+		<h1 id="review-title">Reseñas</h1>
 		<div class="review-container">
 
 			<div class="review-grid">
@@ -420,6 +428,6 @@
 		</div>
 	</footer>
 </body>
-<script src="../../resources/jsFiles/index.js"></script>
+<script src="../../resources/jsFiles/plans.js"></script>
 
 </html>
