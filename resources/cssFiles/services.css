@@ -16,10 +16,13 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.services{
+    padding-bottom: 50px;
+}
+
 .text01 {
     background-color: rgba(210, 211, 200, 0.445);
     border-radius: 10px;
-    flex: 6;
     margin: 5px;
     padding: 30px 25px;
     text-align: justify;
@@ -28,16 +31,20 @@
 .text02 {
     background-color: rgba(210, 211, 200, 0.445);
     border-radius: 10%;
-    flex: 1;
     margin: 10px;
     padding: 20px 50px;
     text-align: center;
 }
 
 .button-class {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 97%;
+
+}
+
+#buttonS{
     background-color: transparent;
-    margin-top: 15%;
-    clear: both;
 }
 
 .plans {
@@ -45,14 +52,41 @@
     text-transform: uppercase;
     background-color: #1ABC9C;
     color: #fff;
-    border-radius: 10px;
-    transition: all ease 0.1s;
-    box-shadow: 0px 10px 0px 0px #CACFD2;
+    border-radius: 15px;
+    transition: all ease 0.5s;
+    box-shadow: 0px 8px 0px 0px #CACFD2;
     user-select: none;
     padding: 5px 30px;
+    letter-spacing: 2px;
 }
 
 .plans:hover, .plans:active {
     box-shadow: 0px 0px 10px 2px #154360;
+    transition: 1s all;
 }
 
+@media(max-width: 820px){
+    .text01{
+        flex: 0;
+        border-radius: 10px;
+    }
+    .text02{
+        flex: 0;
+        border-radius: 10px;
+    }
+    .containerS{
+        display: grid;
+        border-bottom: 2px solid rgb(255, 252, 252);
+        width: 80%;
+        margin: auto;
+    }
+    .button-class{
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+
+    }
+}
