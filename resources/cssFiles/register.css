@@ -69,8 +69,11 @@
         transition: all 1s;
     }
     .container-register{
-        width: 50%;
+        width: 70%;
 
+    }
+    .logos-register{
+        padding: 8.5px 0px;
     }
 }
 
@@ -97,6 +100,6 @@
         padding: 5px 5px;
     }
     .logos-register {
-        padding: 2px 0px;
+        padding: 3.5px 0px;
     }
 }

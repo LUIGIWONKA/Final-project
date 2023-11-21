@@ -118,5 +118,39 @@
     }
     #message_error {
         font-size: 17px;
+        transition: all 1s;
+
     }
+    .logos-login{
+        padding: 2px 0px;
+        transition: all 1s;
+
+    }
+}
+
+@media (max-width: 915px){
+    .logos-login{
+        padding: 8.5px 0px;
+        transition: all 1s;
+
+    }
+    .datas.box{
+        width: 82%;
+        font-size: 18px;
+        transition: all 1s;
+
+    }
+    .container-login{
+        width: 60%;
+        transition: all 1s;
+    }
+}
+
+@media (max-width: 490px){
+    .logos-login{
+        padding: 3.5px 0px;
+        transition: all 1s;
+
+    }
+
 }
