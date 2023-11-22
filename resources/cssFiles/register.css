@@ -91,6 +91,13 @@
     }
 }
 
+@media(max-width: 920px){
+    .test{
+        height: 140%;
+        transition: 1s all ease;
+    }
+}
+
 @media (max-width: 490px) {
     .container-register{
         width: 90%;
